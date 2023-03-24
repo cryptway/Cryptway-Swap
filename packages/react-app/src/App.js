@@ -1,7 +1,6 @@
 import React from "react";
 import { useEthers } from "@usedapp/core";
-
-import styles from "./styles";
+ 
 import { usePools } from "./hooks";
 import { send, swap, fund, currencies, recieve, logo } from "./assets";
 import { Exchange, Loader, WalletButton } from "./components";
