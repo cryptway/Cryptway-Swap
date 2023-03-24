@@ -14,7 +14,7 @@ const App = () => {
    
 <nav className="fixed  w-full justify-between ">
 <header className="flex items-center px-6 py-2 "><div className="flex items-center flex-grow basis-0"> 
-<a    className="flex gap-2"> <img src={logo} alt="logo" className="w-8 h-8 object-contain"  />  <text className="text-white text-2xl font-semibold">CRYPTWAY</text></a>
+<a  href="/"  className="flex gap-2"> <img src={logo} alt="logo" className="w-8 h-8 object-contain"  />  <text className="text-white text-2xl font-semibold">CRYPTWAY</text></a>
        </div>
     <div className="justify-end flex gap-2">
     
@@ -51,7 +51,7 @@ const App = () => {
  </div>
 
  <div>
-    <a ><button type="button" class=" p-2 rounded  shadow bg-[#41444F]"><img src={swap}  className="w-10 h-10 object-contain" /></button></a>
+    <a href="/"><button type="button" class=" p-2 rounded  shadow bg-[#41444F]"><img src={swap}  className="w-10 h-10 object-contain" /></button></a>
  </div>
 
  <div>
