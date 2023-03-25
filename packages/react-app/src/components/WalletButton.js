@@ -24,7 +24,7 @@ const WalletButton = () => {
   return (
     <>
 
-{account && (  <button
+{account && ( <div className="hidden sm:block">  <button
                   type="button"
                   
                   className="z-50 flex gap-2 px-4 py-[6px] hover:border-[1px] hover:px-[15px] hover:py-[5px] shadow-lg  flex-row justify-center items-center my-5 bg-[#2D2F36]  rounded-l-3xl rounded-r-3xl  cursor-pointer"
@@ -33,7 +33,7 @@ const WalletButton = () => {
                 <p className="font-poppins font-bold text text-white ">
                  Goerli
                   </p>
-                </button> )}
+                </button></div> )}
 
  
     <button
